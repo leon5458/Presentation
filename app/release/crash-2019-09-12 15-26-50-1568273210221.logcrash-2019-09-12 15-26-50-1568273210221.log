@@ -1,0 +1,73 @@
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@8dc0201
+versionCode=1
+BOARD=rk30sdk
+BOOTLOADER=unknown
+TYPE=userdebug
+ID=LMY49F
+TIME=1509675344000
+BRAND=IOT-DreamBox
+TAG=Build
+SERIAL=DBAAA01A20020100171106033
+HARDWARE=rk30board
+SUPPORTED_ABIS=[Ljava.lang.String;@1c0f58a6
+CPU_ABI=armeabi-v7a
+RADIO=unknown
+IS_DEBUGGABLE=true
+MANUFACTURER=Dream-Box
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@11d45be8
+TAGS=test-keys
+CPU_ABI2=armeabi
+UNKNOWN=unknown
+USER=myDream
+FINGERPRINT=Dream-Box/rk3288_box/rk3288_box:5.1.1/LMY49F/11031015:userdebug/test-keys
+HOST=myDream-IOT
+PRODUCT=IOT-DreamBox
+versionName=1.0
+DISPLAY=fanmeimei-v0.1.0 2017年 11月 03日 星期五 10:15:44 CST release
+MODEL=IOT-DreamBox
+DEVICE=IOT-DeramBox
+java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.presentation/com.example.presentation.MainActivity}: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@382d7bfc -- permission denied for this window type
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2345)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2407)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1319)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5280)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:963)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:758)
+Caused by: android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@382d7bfc -- permission denied for this window type
+	at android.view.ViewRootImpl.setView(ViewRootImpl.java:634)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:297)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:85)
+	at android.app.Dialog.show(Dialog.java:298)
+	at android.app.Presentation.show(Presentation.java:235)
+	at com.example.presentation.MainActivity.initVideo(MainActivity.java:34)
+	at com.example.presentation.MainActivity.onCreate(MainActivity.java:19)
+	at android.app.Activity.performCreate(Activity.java:6222)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2295)
+	... 10 more
+android.view.WindowManager$BadTokenException: Unable to add window android.view.ViewRootImpl$W@382d7bfc -- permission denied for this window type
+	at android.view.ViewRootImpl.setView(ViewRootImpl.java:634)
+	at android.view.WindowManagerGlobal.addView(WindowManagerGlobal.java:297)
+	at android.view.WindowManagerImpl.addView(WindowManagerImpl.java:85)
+	at android.app.Dialog.show(Dialog.java:298)
+	at android.app.Presentation.show(Presentation.java:235)
+	at com.example.presentation.MainActivity.initVideo(MainActivity.java:34)
+	at com.example.presentation.MainActivity.onCreate(MainActivity.java:19)
+	at android.app.Activity.performCreate(Activity.java:6222)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2295)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2407)
+	at android.app.ActivityThread.access$800(ActivityThread.java:151)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1319)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5280)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:963)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:758)
